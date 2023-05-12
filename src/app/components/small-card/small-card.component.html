@@ -1,11 +1,11 @@
 <div class="card__container">
 	<div class="card__image">
-		<img src="https://picsum.photos/id/684/600/400" alt="">
+		<img src="{{Image}}" alt="">
 	</div>
 	<div class="card__content">
-		<h5>Lorem ipsum dolor</h5>
+		<h5>{{Date}}</h5>
 		<h3>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quasi nihil minus deleniti aspernatur ratione.
+			<a [routerLink]="['content',Id]">{{Title}}</a>
 		</h3>
 	</div>
 </div>

@@ -20,6 +20,10 @@
 	line-height: 1.5;
 }
 
+.card__container .card__content h3:hover {
+	text-decoration: underline;
+}
+
 .card__container .card__content h5 {
 	color: #5e5e5e;
 }
