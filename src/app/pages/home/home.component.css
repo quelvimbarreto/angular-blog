@@ -1,0 +1,22 @@
+.articles {
+	display: flex;
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 64px 0;
+}
+
+.articles .articles__main {
+	flex: 1;
+}
+
+.articles .articles__side {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 16px;
+}
+
+.articles .articles__side hr {
+	border-color: #5e5e5e;
+}

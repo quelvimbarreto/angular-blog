@@ -1,0 +1,25 @@
+.card__container {
+	display: flex;
+}
+
+.card__container .card__image {
+	flex: 1;
+}
+
+.card__container .card__image > img {
+	width: 100%;
+}
+
+.card__container .card__content {
+	flex: 1.5;
+	padding-left: 16px;
+}
+
+.card__container .card__content h3 {
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+.card__container .card__content h5 {
+	color: #5e5e5e;
+}
